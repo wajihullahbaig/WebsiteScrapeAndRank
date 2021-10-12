@@ -109,6 +109,5 @@ Below outputs are from https://visitduabi.com/en/ @12/10/2021 using url analyzer
 | visit dubai |         0.668 |
 | visit       |         0.635 |
 | dubai       |         0.387 |
-| 24 | culture sport                   |           2 |
 
 
