@@ -1,5 +1,5 @@
 # WebsiteScrapeAndRank
-A small repo that has a service and seperate python programs to scrape and rank website pages (only one page) with TF-IDF scores and ngrams (mono,bi,tri)
+A small repo that has a service and seperate python programs to scrape and rank keywords from websites (only one page scraped) with TF-IDF scores and ngrams (mono,bi,tri)
 This repo can be used to extract keywords and rank them based on TF-IDF scores, create, mono,bi and trigrams and analyze the keywords for tasks such as SEO.
 We can also generate word-clouds from the text analyzed.
 
