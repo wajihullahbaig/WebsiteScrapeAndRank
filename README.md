@@ -1,5 +1,5 @@
 # WebsiteScrapeAndRank
-A small repo that has a service and seperate python programs to scrape and rank keywords from websites (only one page scraped) with TF-IDF scores and ngrams (mono,bi,tri)
+A small repo that has a mini flask service and seperate python programs to scrape and rank keywords from websites (only one page scraped) with TF-IDF scores and ngrams (mono,bi,tri)
 This repo can be used to extract keywords and rank them based on TF-IDF scores, create, mono,bi and trigrams and analyze the keywords for tasks such as SEO.
 We can also generate word-clouds from the text analyzed.
 
@@ -10,6 +10,14 @@ There are three ways to analyze textual data
 
 
 Note that some websites will not allow access to the service, In that case download the html page and use one of the analyzers in the test folder
+
+"Below outputs are from dawn.com @12/10/2021" using url analyzer
+
+![dawn_cloud](https://user-images.githubusercontent.com/2294224/136967634-5acca3ea-9771-40de-9798-c51a5fb50a45.png)
+![dawn_tri](https://user-images.githubusercontent.com/2294224/136967561-0807f522-05aa-4849-a151-07acaac064a4.png)
+![dawn_bi](https://user-images.githubusercontent.com/2294224/136967564-0a62b9ee-53ad-456c-a043-3699a01334b2.png)
+![dawn_mono](https://user-images.githubusercontent.com/2294224/136967566-220dd027-79b6-4dd0-b94d-f82cc1b1f043.png)
+
 
 |    | Keyword     |   Frequency |
 |---:|:------------|------------:|
@@ -66,3 +74,5 @@ Note that some websites will not allow access to the service, In that case downl
 | 22 | business opinion                |           2 |
 | 23 | opinion culture                 |           2 |
 | 24 | culture sport                   |           2 |
+
+
