@@ -11,68 +11,104 @@ There are three ways to analyze textual data
 
 Note that some websites will not allow access to the service, In that case download the html page and use one of the analyzers in the test folder
 
-"Below outputs are from dawn.com @12/10/2021" using url analyzer
+Below outputs are from https://visitduabi.com/en/ @12/10/2021 using url analyzer
 
-![dawn_cloud](https://user-images.githubusercontent.com/2294224/136967634-5acca3ea-9771-40de-9798-c51a5fb50a45.png)
-![dawn_tri](https://user-images.githubusercontent.com/2294224/136967561-0807f522-05aa-4849-a151-07acaac064a4.png)
-![dawn_bi](https://user-images.githubusercontent.com/2294224/136967564-0a62b9ee-53ad-456c-a043-3699a01334b2.png)
-![dawn_mono](https://user-images.githubusercontent.com/2294224/136967566-220dd027-79b6-4dd0-b94d-f82cc1b1f043.png)
+![dawn_cloud](https://user-images.githubusercontent.com/2294224/136968819-12b83e5f-26e7-4c64-baba-70095d79ee16.png)
+![dawn_mono](https://user-images.githubusercontent.com/2294224/136968822-a41950d0-6a8b-4970-824c-f2c69a04faa7.png)
+![dawn_bi](https://user-images.githubusercontent.com/2294224/136968816-fb01601a-22ec-42ca-9faf-5d11255837f6.png)
+![dawn_tri](https://user-images.githubusercontent.com/2294224/136968823-554e4a72-eedd-4b13-9994-3f6c90ad79b7.png)
 
 
-|    | Keyword     |   Frequency |
-|---:|:------------|------------:|
-|  0 | oct         |          27 |
-|  1 | pm          |          20 |
-|  2 | read        |          17 |
-|  3 | published   |          15 |
-|  4 | updated     |          14 |
-|  5 | afghan      |          12 |
-|  6 | papers      |          10 |
-|  7 | pakistan    |           9 |
-|  8 | minister    |           9 |
-|  9 | world       |           8 |
-| 10 | says        |           8 |
-| 11 | business    |           7 |
-| 12 | us          |           7 |
-| 13 | dawn        |           5 |
-| 14 | taliban     |           5 |
-| 15 | wants       |           5 |
-| 16 | education   |           5 |
-| 17 | case        |           5 |
-| 18 | dr          |           5 |
-| 19 | health      |           5 |
-| 20 | water       |           5 |
-| 21 | com         |           4 |
-| 22 | live        |           4 |
-| 23 | images      |           4 |
-| 24 | coronavirus |           4 |
 
-|    | Bi-gram                         |   Frequency |
-|---:|:--------------------------------|------------:|
-|  0 | afghan taliban                  |           4 |
-|  1 | taliban minister                |           4 |
-|  2 | minister wants                  |           4 |
-|  3 | wants good                      |           4 |
-|  4 | good relations                  |           4 |
-|  5 | humanitarian crisisfocusitaly   |           4 |
-|  6 | crisisfocusitaly hosts          |           4 |
-|  7 | afghan summit                   |           4 |
-|  8 | namedpandora papers             |           4 |
-|  9 | cantaliban suppresspotentthreat |           3 |
-| 10 | talkstaliban candidprofessional |           3 |
-| 11 | says us                         |           3 |
-| 12 | abdul qadeer                    |           3 |
-| 13 | sunday magazine                 |           3 |
-| 14 | non fiction                     |           3 |
-| 15 | herald aurora                   |           2 |
-| 16 | classifieds obituaries          |           2 |
-| 17 | dawn news                       |           2 |
-| 18 | home latest                     |           2 |
-| 19 | latest coronavirus              |           2 |
-| 20 | coronavirus pakistan            |           2 |
-| 21 | pakistan business               |           2 |
-| 22 | business opinion                |           2 |
-| 23 | opinion culture                 |           2 |
+|    | Keyword       |   Frequency |
+|---:|:--------------|------------:|
+|  0 | dubai         |          33 |
+|  1 | al            |          16 |
+|  2 | jumeirah      |           6 |
+|  3 | visit         |           5 |
+|  4 | discover      |           5 |
+|  5 | travel        |           4 |
+|  6 | login         |           4 |
+|  7 | things        |           4 |
+|  8 | new           |           4 |
+|  9 | food          |           4 |
+| 10 | barsha        |           4 |
+| 11 | businessdubai |           3 |
+| 12 | culture       |           3 |
+| 13 | arts          |           3 |
+| 14 | get           |           3 |
+| 15 | drink         |           3 |
+| 16 | find          |           3 |
+| 17 | visa          |           3 |
+| 18 | guide         |           3 |
+| 19 | hearstory     |           3 |
+| 20 | fromeyes      |           3 |
+| 21 | ofpeople      |           3 |
+| 22 | seef          |           3 |
+| 23 | advisory      |           2 |
+| 24 | register      |           2 |
+
+|    | Bi-gram               |   Frequency |
+|---:|:----------------------|------------:|
+|  0 | visit dubai           |           4 |
+|  1 | visa guide            |           3 |
+|  2 | hearstory discover    |           3 |
+|  3 | discover dubai        |           3 |
+|  4 | dubai fromeyes        |           3 |
+|  5 | fromeyes ofpeople     |           3 |
+|  6 | al seef               |           3 |
+|  7 | login register        |           2 |
+|  8 | dubai businessdubai   |           2 |
+|  9 | businessdubai travel  |           2 |
+| 10 | travel trade          |           2 |
+| 11 | trade study           |           2 |
+| 12 | study dubai           |           2 |
+| 13 | dubai retiredubai     |           2 |
+| 14 | retiredubai corporate |           2 |
+| 15 | dubai get             |           2 |
+| 16 | toin dubai            |           2 |
+| 17 | dubai presents        |           2 |
+| 18 | related sites         |           2 |
+| 19 | palm jumeirah         |           2 |
+| 20 | downtown dubai        |           2 |
+| 21 | dubai marina          |           2 |
+| 22 | bur dubai             |           2 |
+| 23 | al barsha             |           2 |
+| 24 | barsha heights        |           2 |
+
+|    | Tri-gram                                                             |   Frequency |
+|---:|:---------------------------------------------------------------------|------------:|
+|  0 | hearstory discover dubai                                             |           3 |
+|  1 | discover dubai fromeyes                                              |           3 |
+|  2 | dubai fromeyes ofpeople                                              |           3 |
+|  3 | visit dubai businessdubai                                            |           2 |
+|  4 | dubai businessdubai travel                                           |           2 |
+|  5 | businessdubai travel trade                                           |           2 |
+|  6 | travel trade study                                                   |           2 |
+|  7 | trade study dubai                                                    |           2 |
+|  8 | study dubai retiredubai                                              |           2 |
+|  9 | dubai retiredubai corporate                                          |           2 |
+| 10 | dubai international financial                                        |           2 |
+| 11 | international financial centre                                       |           2 |
+| 12 | dubai design district                                                |           2 |
+| 13 | jumeirah lakes towers                                                |           2 |
+| 14 | official tourism boarddubaisafetyour                                 |           1 |
+| 15 | tourism boarddubaisafetyour priority                                 |           1 |
+| 16 | logincreateaccountsavefavouritesreceive personalised recommendations |           1 |
+| 17 | login register loginlike                                             |           1 |
+| 18 | register loginlike sign                                              |           1 |
+| 19 | loginlike sign inregisterlikecontent                                 |           1 |
+| 20 | sign inregisterlikecontent login                                     |           1 |
+| 21 | inregisterlikecontent login register                                 |           1 |
+| 22 | login register visit                                                 |           1 |
+| 23 | register visit dubai                                                 |           1 |
+| 24 | retiredubai corporate aa                                             |           1 |
+
+| keywords    |   tf-df score |
+|:------------|--------------:|
+| visit dubai |         0.668 |
+| visit       |         0.635 |
+| dubai       |         0.387 |
 | 24 | culture sport                   |           2 |
 
 
