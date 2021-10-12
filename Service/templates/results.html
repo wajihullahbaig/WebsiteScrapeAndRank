@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Results Analysis</title>
+  </head>
+  <body>
+    <img src="data:image/png;base64, {{ wcb64  }}">
+    <br> Word Cloud <br>
+    <img src="data:image/png;base64, {{ tb64  }}">
+    <br> TopN unigram Words <br>
+    <img src="data:image/png;base64, {{ t2b64  }}">
+    <br> TopN bigram Words <br>
+    <img src="data:image/png;base64, {{ t3b64  }}">
+    <br> TopN trigram Words <br>
+    
+    <br>        
+    <a href="{{url_for('downloads',filename=zipfile_link)}}">Download TFIDF scores and ngram lists</a>    
+    <br>
+    
+  </body>
+</html>
